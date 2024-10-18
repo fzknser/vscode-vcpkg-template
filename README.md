@@ -1,2 +1,8 @@
-Шаблон проекта привязки файлов пакетного менеджера VCPKG в IDE VS Code
+Шаблон проекта привязки библиотек пакетного менеджера VCPKG в IDE VS Code
 - install vcpkg https://learn.microsoft.com/ru-ru/vcpkg/get_started/get-started?pivots=shell-powershell
+- sudo nano .bashrc
+- в конце файла добавляем
+  export VCPKG_ROOT=/home/<user>/vcpkg
+  export PATH=$PATH:$VCPKG_ROOT
+  export VCPKG_FORCE_SYSTEM_BINARIES=1
+- vcpkg add port fmt - не делать, иначе библиотеки будут дублироваться в текущем проекте
