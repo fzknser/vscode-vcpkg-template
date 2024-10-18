@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "configurePresets": [
+      {
+        "name": "defaultsss",
+        "inherits": "vcpkg",
+        "environment": {
+          "VCPKG_ROOT": "/home/gmkg/vcpkg"
+        }
+      }
+    ]
+  }
