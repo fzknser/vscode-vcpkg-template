@@ -6,7 +6,7 @@
 -  export PATH=$PATH:$VCPKG_ROOT
 -  export VCPKG_FORCE_SYSTEM_BINARIES=1
 -  vcpkg add port fmt - не делать, иначе библиотеки будут дублироваться в текущем проекте
--- запуск cmake в терминале --
+- - запуск cmake в терминале -
 -  cd to/workspace/project
 -  mkgir build
 -  cd build
