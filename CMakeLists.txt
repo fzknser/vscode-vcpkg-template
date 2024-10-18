@@ -13,5 +13,5 @@ find_package(fmt CONFIG REQUIRED)
 
 add_executable(cmake_main main.cpp)
 
-target_link_libraries(cmake_main PRIVATE fmt::fmt-header-only)
+target_link_libraries(cmake_main PRIVATE fmt::fmt)
 
